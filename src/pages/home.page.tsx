@@ -65,7 +65,7 @@ const updateLoading = app((state) => state.updateLoading);
     };
     React.useEffect(() => {
       // updateLoading(true)
-      // fetchData()
+      fetchData()
       // updateLoading(true)
   
     }, []); 

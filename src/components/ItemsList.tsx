@@ -7,7 +7,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
-// import Button from "@mui/material/Button";
+import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
@@ -23,7 +23,6 @@ import CircularProgress from '@mui/material/CircularProgress';
 import LinearProgress from '@mui/material/LinearProgress';
 import Box from "@mui/material/Box";
 import { getAllItems } from "../api/upload.api";
-import Button from '@mui/base/Button';
 
 
 interface Column {
@@ -288,7 +287,7 @@ var r:Data[] = items
                       role="checkbox"
                       style={{ cursor: "pointer" }}
                       tabIndex={-1}
-                      key={r.Description}
+                      key={r["Item No"]}
                     >
                       {columns.map((column) => {
                         const value = r[column.id];
