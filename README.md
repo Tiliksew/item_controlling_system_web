@@ -1,4 +1,7 @@
+- text in red
 + The First Screen is before any file upload and is nothing to show.
+! text in orange
+# text in gray
 @@ text in purple (and bold)@@
 ![My Image](assets/screen1.png)
 ![My Image](assets/screen2.png)
